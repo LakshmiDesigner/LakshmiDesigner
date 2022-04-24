@@ -1,0 +1,5 @@
+## git commands to update the local branch 
+git branch -m main AWS_Scripts
+git fetch origin
+git branch -u origin/AWS_Scripts AWS_Scripts
+git remote set-head origin -a
